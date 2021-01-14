@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="commonstyle.css">
+
+
+</head>
+
+<body>
+    <section>
+        <form action="/register" method="POST">
+
+            <a href="/" class="logo">Sample <span style="color: #ffae42;">A</span>uth.</a>
+
+            <h2>Register User</h2>
+            <div class="container">
+
+                <label for="firstname"><b>First Name</b></label>
+                <br>
+                <input type="text" placeholder="Enter firstname" name="firstname" id="firstname" required>
+                <br><label for="lastname"><b>Last Name</b></label>
+                <br><input type="text" placeholder="Enter lastname" name="lastname" id="lastname" required>
+
+                <br><label for="email"><b>Email</b></label>
+                <br><input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                <br><label for="password"><b>Password</b></label>
+                <br><input type="password" placeholder="Enter Password" name="password" id="psw" required>
+
+                <br>
+                <a href="/login">Already have an account?</a>
+                <button type="submit" class="registerbtn">Register</button>
+            </div>
+
+        </form>
+    </section>
+</body>
+
+</html>
